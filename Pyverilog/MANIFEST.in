@@ -1,0 +1,12 @@
+include README.md
+include LICENSE
+include pytest.ini
+include .travis.yml
+include Makefile
+include pyverilog/Makefile
+include pyverilog/VERSION
+recursive-include tests *
+recursive-include examples *
+recursive-include verilogcode *
+recursive-include img *
+recursive-include scripts *
